@@ -1,0 +1,91 @@
+$date
+	Tue Aug 18 12:04:38 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module instruction_decoder_tb $end
+$var wire 5 ! rs2 [4:0] $end
+$var wire 5 " rs1 [4:0] $end
+$var wire 5 # rd [4:0] $end
+$var wire 7 $ opcode [6:0] $end
+$var wire 7 % funct7 [6:0] $end
+$var wire 3 & funct3 [2:0] $end
+$var reg 32 ' instruction [31:0] $end
+$scope module uut $end
+$var wire 32 ( instruction [31:0] $end
+$var reg 3 ) funct3 [2:0] $end
+$var reg 7 * funct7 [6:0] $end
+$var reg 7 + opcode [6:0] $end
+$var reg 5 , rd [4:0] $end
+$var reg 5 - rs1 [4:0] $end
+$var reg 5 . rs2 [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10 .
+b1 -
+b101 ,
+b110011 +
+b0 *
+b0 )
+b1000001000001010110011 (
+b1000001000001010110011 '
+b0 &
+b0 %
+b110011 $
+b101 #
+b1 "
+b10 !
+$end
+#10000
+b100000 %
+b100000 *
+b100 !
+b100 .
+b11 "
+b11 -
+b110 #
+b110 ,
+b1000000010000011000001100110011 '
+b1000000010000011000001100110011 (
+#20000
+b0 %
+b0 *
+b1010 !
+b1010 .
+b1 "
+b1 -
+b101 #
+b101 ,
+b10011 $
+b10011 +
+b101000001000001010010011 '
+b101000001000001010010011 (
+#30000
+b0 !
+b0 .
+b10 &
+b10 )
+b11 $
+b11 +
+b1010001010000011 '
+b1010001010000011 (
+#40000
+b101 !
+b101 .
+b100 #
+b100 ,
+b100011 $
+b100011 +
+b10100001010001000100011 '
+b10100001010001000100011 (
+#50000
